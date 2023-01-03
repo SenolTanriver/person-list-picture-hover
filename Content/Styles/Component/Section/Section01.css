@@ -1,0 +1,94 @@
+/* Common xs1, xs2 */
+/* Common sm1, sm2 tablet */
+@media all and (min-width: 1320px) {
+  .section-01 .conteiner {
+    display: grid;
+  }
+  .section-01 .conteiner .picture {
+    display: flex;
+    justify-content: center;
+  }
+  .section-01 .conteiner .picture img {
+    width: 1400px;
+    height: 700px;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  .section-01 .conteiner .infoContent {
+    overflow: hidden;
+    z-index: 100;
+    visibility: hidden;
+    opacity: 0;
+  }
+  .section-01 .conteiner .infoContent.active {
+    visibility: visible;
+    opacity: 1;
+  }
+  .section-01 .conteiner .infoContent .name {
+    text-align: center;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 0.15em;
+  }
+  .section-01 .conteiner .infoContent .desc {
+    margin-top: 5px;
+    color: #fff;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 0.25em;
+  }
+  .section-01 .conteiner .infoContent .line {
+    position: absolute;
+    top: 26px;
+    right: 0;
+    width: 100%;
+    height: 1px;
+    background-color: #f64138;
+  }
+  .section-01 .conteiner .aragorn {
+    position: absolute;
+    margin-left: 300px;
+    margin-top: 300px;
+  }
+  .section-01 .conteiner .gandalf {
+    position: absolute;
+    margin-left: 600px;
+    margin-top: 270px;
+  }
+  .section-01 .conteiner .legolas {
+    position: absolute;
+    margin-left: 870px;
+    margin-top: 250px;
+  }
+  .section-01 .conteiner .boromir {
+    position: absolute;
+    margin-left: 1230;
+    margin-top: 270px;
+  }
+  .section-01 .conteiner .sam {
+    position: absolute;
+    margin-left: 530;
+    margin-top: 520px;
+  }
+  .section-01 .conteiner .frodo {
+    position: absolute;
+    margin-left: 660px;
+    margin-top: 500px;
+  }
+  .section-01 .conteiner .merry {
+    position: absolute;
+    margin-left: 810px;
+    margin-top: 480px;
+  }
+  .section-01 .conteiner .pippin {
+    position: absolute;
+    margin-left: 1040px;
+    margin-top: 495px;
+  }
+  .section-01 .conteiner .gimli {
+    position: absolute;
+    margin-left: 1185px;
+    margin-top: 415px;
+  }
+}/*# sourceMappingURL=Section01.css.map */

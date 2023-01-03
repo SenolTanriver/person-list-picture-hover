@@ -1,0 +1,117 @@
+﻿@import "../../Base/Global.scss";
+@import "../../Base/Colour.scss";
+
+/* Common xs1, xs2 */
+@media all and (max-width: #{($mq-sm1 - 1) + "px"}) {
+}
+
+/* Common sm1, sm2 tablet */
+@media all and (min-width: #{($mq-sm1) + "px"}) and (max-width: #{($mq-md - 1) + "px"}) {
+}
+
+@media all and (min-width: #{$mq-md + "px"}) {
+  .section-01 {
+    .conteiner {
+      display: grid;
+
+      .picture {
+        display: flex;
+        justify-content: center;
+
+        img {
+          width: 1400px;
+          height: 700px;
+          object-fit: cover;
+        }
+      }
+
+      .infoContent {
+        overflow: hidden;
+        z-index: 100;
+        visibility: hidden;
+        opacity: 0;
+        &.active{
+          visibility: visible;
+          opacity: 1;
+        }
+
+
+        .name {
+          text-align: center;
+          color: #fff;
+          font-size: 18px;
+          font-weight: 700;
+          letter-spacing: 0.15em;
+        }
+        .desc {
+          margin-top: 5px;
+          color: #fff;
+          font-size: 12px;
+          font-weight: 600;
+          letter-spacing: 0.25em;
+        }
+        .line {
+          position: absolute;
+          top: 26px;
+          right: 0;
+          width: 100%;
+          height: 1px;
+          background-color: #f64138;
+        }
+      }
+      .aragorn {
+        position: absolute;
+        margin-left: 300px;
+        margin-top: 300px;
+      }
+
+      .gandalf {
+        position: absolute;
+        margin-left: 600px;
+        margin-top: 270px;
+      }
+
+      .legolas {
+        position: absolute;
+        margin-left: 870px;
+        margin-top: 250px;
+      }
+
+      .boromir {
+        position: absolute;
+        margin-left: 1230;
+        margin-top: 270px;
+      }
+
+      .sam {
+        position: absolute;
+        margin-left: 530;
+        margin-top: 520px;
+      }
+
+      .frodo {
+        position: absolute;
+        margin-left: 660px;
+        margin-top: 500px;
+      }
+
+      .merry {
+        position: absolute;
+        margin-left: 810px;
+        margin-top: 480px;
+      }
+
+      .pippin {
+        position: absolute;
+        margin-left: 1040px;
+        margin-top: 495px;
+      }
+
+      .gimli {
+        position: absolute;
+        margin-left: 1185px;
+        margin-top: 415px;
+      }
+    }
+  }
+}
